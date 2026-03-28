@@ -18,7 +18,7 @@ export default function ChangePasswordForm() {
     useEffect(() => {
         if(state.success) {
             toast.success(state.success)
-            ref.current?.reset()//Cuando el state es exitoso lo resetea
+            ref.current?.reset()//Cuando el state es exitoso lo reseteaa
         }
     }, [state])
 
